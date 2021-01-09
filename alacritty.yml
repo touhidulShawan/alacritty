@@ -52,20 +52,23 @@ font:
   # The normal (roman) font face to use.
   normal:
     family: MesloLGS NF
+    #family: SauceCodePro Nerd Font
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
     family: MesloLGS NF
+    #family: SauceCodePro Nerd Font
     # Style can be specified to pick a specific face.
-    # style: Bold
+    style: Bold
 
   # The italic font face
   italic:
     family: MesloLGS NF
+    #family: SauceCodePro Nerd Font
     # Style can be specified to pick a specific face.
-    # style: Italic
+    style: Italic
 
     # Point size of the font
     size: 11
@@ -185,84 +188,6 @@ colors:
     magenta: '0xc792ea'
     cyan:    '0x7fdbca'
     white:   '0xffffff'
-# --------------------------
-# # KDE Breeze (Ported from Konsole)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#232627"
-#     foreground: "#fcfcfc"
-#
-#     dim_foreground: "#eff0f1"
-#     bright_foreground: "#ffffff"
-#     dim_background: "#31363b"
-#     bright_background: "#000000"
-#
-#   # Normal colors
-#   normal:
-#     black: "#232627"
-#     red: "#ed1515"
-#     green: "#11d116"
-#     yellow: "#f67400"
-#     blue: "#1d99f3"
-#     magenta: "#9b59b6"
-#     cyan: "#1abc9c"
-#     white: "#fcfcfc"
-#
-#   # Bright colors
-#   bright:
-#     black: "#7f8c8d"
-#     red: "#c0392b"
-#     green: "#1cdc9a"
-#     yellow: "#fdbc4b"
-#     blue: "#3daee9"
-#     magenta: "#8e44ad"
-#     cyan: "#16a085"
-#     white: "#ffffff"
-#
-#   # Dim colors
-#   dim:
-#     black: "#31363b"
-#     red: "#783228"
-#     green: "#17a262"
-#     yellow: "#b65619"
-#     blue: "#1b668f"
-#     magenta: "#614a73"
-#     cyan: "#186c60"
-#     white: "#63686d"
-#
-# colors:
-#   # Default colors
-#   primary:
-#     background: "#1E1E3F"
-#     foreground: "#E1EFFF"
-
-#   # Colors the cursor will use if `custom_cursor_colors` is true
-#   cursor:
-#     text: "#1E1E3F"
-#     cursor: "#FAD000"
-
-#   # Normal colors
-#   normal:
-#     black: "#000000"
-#     red: "#EC3A37"
-#     green: "#75e44c"
-#     yellow: "#FAD000"
-#     blue: "#6943FF"
-#     magenta: "#FF2C70"
-#     cyan: "#80FCFF"
-#     white: "#FFFFFF"
-
-#   # Bright colors
-#   bright:
-#     black: "#5C5C61"
-#     red: "#EC3A37"
-#     green: "#3AD900"
-#     yellow: "#FAD000"
-#     blue: "#6943FF"
-#     magenta: "#FB94FF"
-#     cyan: "#80FCFF"
-#     white: "#2D2B55"
 
 # Colors (Shades_of_Purple)
 #colors:
@@ -297,7 +222,7 @@ colors:
 #     magenta: "#FB94FF"
 #     cyan: "#80FCFF"
 #     white: "#2D2B55"
-#
+
 
 # Colors (Tomorrow Night)
 #colors:
@@ -492,106 +417,6 @@ colors:
 #    cyan:    '#8ec07c'
 #    white:   '#ebdbb2'
 
-# Colors (Darkside)
-# colors:
-# primary:
-#   background: "#222324"
-#   foreground: "#BABABA"
-
-# # Normal colors
-# normal:
-#   black: "#000000"
-#   red: "#E8341C"
-#   green: "#68C256"
-#   yellow: "#F2D42C"
-#   blue: "#1C98E8"
-#   magenta: "#8E69C9"
-#   cyan: "#1C98E8"
-#   white: "#BABABA"
-
-# # Bright colors
-# bright:
-#   black: "#666666"
-#   red: "#E05A4F"
-#   green: "#77B869"
-#   yellow: "#EFD64B"
-#   blue: "#387CD3"
-#   magenta: "#957BBE"
-#   cyan: "#3D97E2"
-#   white: "#BABABA"
-
-# Colors (Darktooth)
-# colors:
-#   # Default colors
-#   primary:
-#     background: "#282828"
-#     foreground: "#fdf4c1"
-
-#   # Normal colors
-#   normal:
-#     black: "#282828"
-#     red: "#9d0006"
-#     green: "#79740e"
-#     yellow: "#b57614"
-#     blue: "#076678"
-#     magenta: "#8f3f71"
-#     cyan: "#00a7af"
-#     white: "#fdf4c1"
-
-#   # Bright colors
-#   bright:
-#     black: "#32302f"
-#     red: "#fb4933"
-#     green: "#b8bb26"
-#     yellow: "#fabd2f"
-#     blue: "#83a598"
-#     magenta: "#d3869b"
-#     cyan: "#3fd7e5"
-#     white: "#ffffc8"
-
-#   # Dim colors (Optional)
-#   dim:
-#     black: "#1d2021"
-#     red: "#421e1e"
-#     green: "#232b0f"
-#     yellow: "#4d3b27"
-#     blue: "#2b3c44"
-#     magenta: "#4e3d45"
-#     cyan: "#205161"
-#     white: "#f4e8ba"
-
-# Colors (Hyper)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#000000"
-#     foreground: "#ffffff"
-#   cursor:
-#     text: "#F81CE5"
-#     cursor: "#ffffff"
-#
-#   # Normal colors
-#   normal:
-#     black: "#000000"
-#     red: "#fe0100"
-#     green: "#33ff00"
-#     yellow: "#feff00"
-#     blue: "#0066ff"
-#     magenta: "#cc00ff"
-#     cyan: "#00ffff"
-#     white: "#d0d0d0"
-#
-#   # Bright colors
-#   bright:
-#     black: "#808080"
-#     red: "#fe0100"
-#     green: "#33ff00"
-#     yellow: "#feff00"
-#     blue: "#0066ff"
-#     magenta: "#cc00ff"
-#     cyan: "#00ffff"
-#     white: "#FFFFFF"
-#
 # Colors (Material Theme)
 #colors:
 #   # Default colors
@@ -652,35 +477,6 @@ colors:
 #     cyan: "#56b6c2"
 #     white: "#ffffff"
 
-# Colors (Nord)
-#colors:
-#   # Default colors
-#   primary:
-#     background: '#2E3440'
-#     foreground: '#D8DEE9'
-#
-#   # Normal colors
-#   normal:
-#     black:   '#3B4252'
-#     red:     '#BF616A'
-#     green:   '#A3BE8C'
-#     yellow:  '#EBCB8B'
-#     blue:    '#81A1C1'
-#     magenta: '#B48EAD'
-#     cyan:    '#88C0D0'
-#     white:   '#E5E9F0'
-#
-#   # Bright colors
-#   bright:
-#     black:   '#4C566A'
-#     red:     '#BF616A'
-#     green:   '#A3BE8C'
-#     yellow:  '#EBCB8B'
-#     blue:    '#81A1C1'
-#     magenta: '#B48EAD'
-#     cyan:    '#8FBCBB'
-#     white:   '#ECEFF4'
-#
 # Visual Bell
 #
 # Any time the BEL code is received, Alacritty "rings" the visual bell. Once
@@ -707,7 +503,7 @@ bell:
   animation: EaseOutExpo
   duration: 0
 
-#background_opacity: 0.90
+background_opacity: 1.0
 # Key bindings
 #
 # Each binding is defined as an object with some properties. Most of the
