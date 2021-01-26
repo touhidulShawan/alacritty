@@ -51,26 +51,35 @@ draw_bold_text_with_bright_colors: true
 font:
   # The normal (roman) font face to use.
   normal:
-    family: MesloLGS NF
+      #family: MesloLGS NF
+      #family: SauceCodePro Nerd Font
+      #family: Mononoki Nerd Font
+    family: JetBrains Mono Nerd Font
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
-    family: MesloLGS NF
+      #family: MesloLGS NF
+      #family: SauceCodePro Nerd Font
+      #family: Mononoki Nerd Font
+    family: JetBrains Mono Medium Nerd Font
     #family: SauceCodePro Nerd Font
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    family: MesloLGS NF
+      #family: MesloLGS NF
+      #family: SauceCodePro Nerd Font
+      #family: Mononoki Nerd Font
+    family: JetBrains Mono Medium Nerd Font
     #family: SauceCodePro Nerd Font
     # Style can be specified to pick a specific face.
     style: Italic
 
     # Point size of the font
-    size: 12
+    size: 10
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
   offset:
