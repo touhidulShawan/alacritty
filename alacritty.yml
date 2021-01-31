@@ -1,4 +1,4 @@
-#           _               _____ _____  _____ _______ _________     __
+#            _               _____ _____  _____ _______ _________     __
 #      /\   | |        /\   / ____|  __ \|_   _|__   __|__   __\ \   / /
 #     /  \  | |       /  \ | |    | |__) | | |    | |     | |   \ \_/ /
 #    / /\ \ | |      / /\ \| |    |  _  /  | |    | |     | |    \   /
@@ -34,7 +34,6 @@ window:
 
   title: Alacritty
 
-
   class:
     instance: Alacritty
     general: Alacritty
@@ -51,18 +50,18 @@ draw_bold_text_with_bright_colors: true
 font:
   # The normal (roman) font face to use.
   normal:
-      #family: MesloLGS NF
-      #family: SauceCodePro Nerd Font
-      #family: Mononoki Nerd Font
+    #family: MesloLGS NF
+    #family: SauceCodePro Nerd Font
+    #family: Mononoki Nerd Font
     family: JetBrains Mono Nerd Font
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
-      #family: MesloLGS NF
-      #family: SauceCodePro Nerd Font
-      #family: Mononoki Nerd Font
+    #family: MesloLGS NF
+    #family: SauceCodePro Nerd Font
+    #family: Mononoki Nerd Font
     family: JetBrains Mono Medium Nerd Font
     #family: SauceCodePro Nerd Font
     # Style can be specified to pick a specific face.
@@ -70,9 +69,9 @@ font:
 
   # The italic font face
   italic:
-      #family: MesloLGS NF
-      #family: SauceCodePro Nerd Font
-      #family: Mononoki Nerd Font
+    #family: MesloLGS NF
+    #family: SauceCodePro Nerd Font
+    #family: Mononoki Nerd Font
     family: JetBrains Mono Medium Nerd Font
     #family: SauceCodePro Nerd Font
     # Style can be specified to pick a specific face.
@@ -138,35 +137,35 @@ custom_cursor_colors: true
 colors:
   # Default colors
   primary:
-    background: '0x011627'
-    foreground: '0xd6deeb'
+    background: "0x011627"
+    foreground: "0xd6deeb"
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0xffffff'
-    cursor: '0x7e57c2'
+    text: "0xffffff"
+    cursor: "0x7e57c2"
 
   # Normal colors
   normal:
-    black:   '0x000000'
-    red:     '0xef5350'
-    green:   '0x22da6e'
-    yellow:  '0xaddb67'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x21c7a8'
-    white:   '0xffffff'
+    black: "0x000000"
+    red: "0xef5350"
+    green: "0x22da6e"
+    yellow: "0xaddb67"
+    blue: "0x82aaff"
+    magenta: "0xc792ea"
+    cyan: "0x21c7a8"
+    white: "0xffffff"
 
   # Bright colors
   bright:
-    black:   '0x575656'
-    red:     '0xef5350'
-    green:   '0x22da6e'
-    yellow:  '0xffeb95'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x7fdbca'
-    white:   '0xffffff'
+    black: "0x575656"
+    red: "0xef5350"
+    green: "0x22da6e"
+    yellow: "0xffeb95"
+    blue: "0x82aaff"
+    magenta: "0xc792ea"
+    cyan: "0x7fdbca"
+    white: "0xffffff"
 #
 # Colors (Shades_of_Purple)
 #colors:
@@ -236,7 +235,6 @@ colors:
 #    magenta: '0xb77ee0'
 #    cyan:    '0x54ced6'
 #    white:   '0x282a2e'
-
 
 # Colors (Dracula)
 #colors:
