@@ -134,39 +134,39 @@ custom_cursor_colors: true
 #    white:   '#ffffff'
 #
 # Colors (Night Owl by Sarah Drasner)
-colors:
-  # Default colors
-  primary:
-    background: "0x011627"
-    foreground: "0xd6deeb"
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: "0xffffff"
-    cursor: "0x7e57c2"
-
-  # Normal colors
-  normal:
-    black: "0x000000"
-    red: "0xef5350"
-    green: "0x22da6e"
-    yellow: "0xaddb67"
-    blue: "0x82aaff"
-    magenta: "0xc792ea"
-    cyan: "0x21c7a8"
-    white: "0xffffff"
-
-  # Bright colors
-  bright:
-    black: "0x575656"
-    red: "0xef5350"
-    green: "0x22da6e"
-    yellow: "0xffeb95"
-    blue: "0x82aaff"
-    magenta: "0xc792ea"
-    cyan: "0x7fdbca"
-    white: "0xffffff"
+#colors:
+#  # Default colors
+#  primary:
+#    background: "0x011627"
+#    foreground: "0xd6deeb"
 #
+#  # Colors the cursor will use if `custom_cursor_colors` is true
+#  cursor:
+#    text: "0xffffff"
+#    cursor: "0x7e57c2"
+#
+#  # Normal colors
+#  normal:
+#    black: "0x000000"
+#    red: "0xef5350"
+#    green: "0x22da6e"
+#    yellow: "0xaddb67"
+#    blue: "0x82aaff"
+#    magenta: "0xc792ea"
+#    cyan: "0x21c7a8"
+#    white: "0xffffff"
+#
+#  # Bright colors
+#  bright:
+#    black: "0x575656"
+#    red: "0xef5350"
+#    green: "0x22da6e"
+#    yellow: "0xffeb95"
+#    blue: "0x82aaff"
+#    magenta: "0xc792ea"
+#    cyan: "0x7fdbca"
+#    white: "0xffffff"
+
 # Colors (Shades_of_Purple)
 #colors:
 #   # Default colors
@@ -288,33 +288,33 @@ colors:
 #     white: "#FFFFFF"
 #
 # Colors (Ayu Mirage)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#202734"
-#     foreground: "#CBCCC6"
-#
-#   # Normal colors
-#   normal:
-#     black: "#191E2A"
-#     red: "#FF3333"
-#     green: "#BAE67E"
-#     yellow: "#FFA759"
-#     blue: "#73D0FF"
-#     magenta: "#FFD580"
-#     cyan: "#95E6CB"
-#     white: "#C7C7C7"
-#
-#   # Bright colors
-#   bright:
-#     black: "#686868"
-#     red: "#F27983"
-#     green: "#A6CC70"
-#     yellow: "#FFCC66"
-#     blue: "#5CCFE6"
-#     magenta: "#FFEE99"
-#     cyan: "#95E6CB"
-#     white: "#FFFFFF"
+colors:
+   # Default colors
+   primary:
+     background: "#202734"
+     foreground: "#CBCCC6"
+
+   # Normal colors
+   normal:
+     black: "#191E2A"
+     red: "#FF3333"
+     green: "#BAE67E"
+     yellow: "#FFA759"
+     blue: "#73D0FF"
+     magenta: "#FFD580"
+     cyan: "#95E6CB"
+     white: "#C7C7C7"
+
+   # Bright colors
+   bright:
+     black: "#686868"
+     red: "#F27983"
+     green: "#A6CC70"
+     yellow: "#FFCC66"
+     blue: "#5CCFE6"
+     magenta: "#FFEE99"
+     cyan: "#95E6CB"
+     white: "#FFFFFF"
 #
 # Colors (Gruvbox dark)
 #colors:
