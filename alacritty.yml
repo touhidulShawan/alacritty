@@ -6,7 +6,6 @@
 #  /_/    \_\______/_/    \_\_____|_|  \_\_____|  |_|     |_|     |_|
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator
-
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty it self.
@@ -23,11 +22,9 @@ window:
   #  dimensions:
   #    columns: 117
   #    lines: 27
-
   # The FreeType rasterizer needs to know the device DPI for best results
   # (changes require restart)
   # s
-
   padding:
     x: 6
     y: 6
@@ -42,7 +39,6 @@ scrolling:
   history: 5000
 # Display tabs using this many cells (changes require restart)
 #tabspaces: 4
-
 # When true, bold text is drawn using the bright variant of colors.
 draw_bold_text_with_bright_colors: true
 
@@ -92,7 +88,6 @@ font:
 
 # Should display the render timer
 # render_timer: true
-
 # Use custom cursor colors. If true, display the cursor in the cursor.foreground
 # and cursor.background colors, otherwise invert the colors of the cursor.
 custom_cursor_colors: true
@@ -134,38 +129,41 @@ custom_cursor_colors: true
 #    white:   '#ffffff'
 #
 # Colors (Night Owl by Sarah Drasner)
-#colors:
-#  # Default colors
-#  primary:
-#    background: "0x011627"
-#    foreground: "0xd6deeb"
-#
-#  # Colors the cursor will use if `custom_cursor_colors` is true
-#  cursor:
-#    text: "0xffffff"
-#    cursor: "0x7e57c2"
-#
-#  # Normal colors
-#  normal:
-#    black: "0x000000"
-#    red: "0xef5350"
-#    green: "0x22da6e"
-#    yellow: "0xaddb67"
-#    blue: "0x82aaff"
-#    magenta: "0xc792ea"
-#    cyan: "0x21c7a8"
-#    white: "0xffffff"
-#
-#  # Bright colors
-#  bright:
-#    black: "0x575656"
-#    red: "0xef5350"
-#    green: "0x22da6e"
-#    yellow: "0xffeb95"
-#    blue: "0x82aaff"
-#    magenta: "0xc792ea"
-#    cyan: "0x7fdbca"
-#    white: "0xffffff"
+colors:
+  # Default colors
+  primary:
+    background: '#011627'
+    foreground: '#acb4c2'
+
+  cursor:
+    text: '#fafafa'
+    cursor: '#9ca1aa'
+
+  selection:
+    text: '#080808'
+    background: '#b2ceee'
+
+  # Normal colors
+  normal:
+    black: '#1d3b53'
+    red: '#fc514e'
+    green: '#a1cd5e'
+    yellow: '#e3d18a'
+    blue: '#82aaff'
+    magenta: '#c792ea'
+    cyan: '#7fdbca'
+    white: '#a1aab8'
+
+  # Bright colors
+  bright:
+    black: '#7c8f8f'
+    red: '#ff5874'
+    green: '#21c7a8'
+    yellow: '#ecc48d'
+    blue: '#82aaff'
+    magenta: '#ae81ff'
+    cyan: '#7fdbca'
+    white: '#d6deeb'
 
 # Colors (Shades_of_Purple)
 #colors:
@@ -256,8 +254,6 @@ custom_cursor_colors: true
 #    magenta: '0xff46b0'
 #    cyan:    '0x59dffc'
 #    white:   '0xe6e6d1'
-
-
 # Colors (Ayu Dark)
 #colors:
 #   # Default colors
@@ -288,42 +284,44 @@ custom_cursor_colors: true
 #     white: "#FFFFFF"
 #
 # Colors (Ayu Mirage)
-colors:
-   # Default colors
-   primary:
-     background: "#202734"
-     foreground: "#CBCCC6"
-
-   # Normal colors
-   normal:
-     black: "#191E2A"
-     red: "#FF3333"
-     green: "#BAE67E"
-     yellow: "#FFA759"
-     blue: "#73D0FF"
-     magenta: "#FFD580"
-     cyan: "#95E6CB"
-     white: "#C7C7C7"
-
-   # Bright colors
-   bright:
-     black: "#686868"
-     red: "#F27983"
-     green: "#A6CC70"
-     yellow: "#FFCC66"
-     blue: "#5CCFE6"
-     magenta: "#FFEE99"
-     cyan: "#95E6CB"
-     white: "#FFFFFF"
+#colors:
+#   # Default colors
+#   primary:
+#     background: "#202734"
+#     foreground: "#CBCCC6"
+#
+#   # Normal colors
+#   normal:
+#     black: "#191E2A"
+#     red: "#FF3333"
+#     green: "#BAE67E"
+#     yellow: "#FFA759"
+#     blue: "#73D0FF"
+#     magenta: "#FFD580"
+#     cyan: "#95E6CB"
+#     white: "#C7C7C7"
+#
+#   # Bright colors
+#   bright:
+#     black: "#686868"
+#     red: "#F27983"
+#     green: "#A6CC70"
+#     yellow: "#FFCC66"
+#     blue: "#5CCFE6"
+#     magenta: "#FFEE99"
+#     cyan: "#95E6CB"
+#     white: "#FFFFFF"
 #
 # Colors (Gruvbox dark)
 #colors:
 #  # Default colors
 #  primary:
-#    # hard contrast: background = '#1d2021'
-#    #background: '#282828'
+#    # hard contrast:
 #    background: '#1d2021'
-#    # soft contrast: background = '#32302f'
+#    #background: '#282828'
+#    #background: '#1d2021'
+#    # soft contrast:
+#    #background: '#32302f'
 #    foreground: '#ebdbb2'
 #
 #  # Normal colors
@@ -347,7 +345,6 @@ colors:
 #    magenta: '#d3869b'
 #    cyan:    '#8ec07c'
 #    white:   '#ebdbb2'
-
 # Colors (Material Theme)
 #colors:
 #   # Default colors
@@ -457,9 +454,6 @@ colors:
 #    magenta: '#8c738c'
 #    cyan: '#6d96a5'
 #    white: '#aeb3bb'
-
-
-
 # Visual Bell
 #
 # Any time the BEL code is received, Alacritty "rings" the visual bell. Once
@@ -520,50 +514,50 @@ key_bindings:
   - { key: C, mods: Control|Shift, action: Copy }
   - { key: Q, mods: Control|Shift, action: Quit }
   - { key: W, mods: Control|Shift, action: Quit }
-  - { key: Home, chars: "\x1bOH", mode: AppCursor }
-  - { key: Home, chars: "\x1b[1~", mode: ~AppCursor }
-  - { key: End, chars: "\x1bOF", mode: AppCursor }
-  - { key: End, chars: "\x1b[4~", mode: ~AppCursor }
-  - { key: PageUp, chars: "\x1b[5~" }
-  - { key: PageDown, chars: "\x1b[6~" }
-  - { key: Left, mods: Shift, chars: "\x1b[1;2D" }
-  - { key: Left, mods: Control, chars: "\x1b[1;5D" }
-  - { key: Left, mods: Alt, chars: "\x1b[1;3D" }
-  - { key: Left, chars: "\x1b[D", mode: ~AppCursor }
-  - { key: Left, chars: "\x1bOD", mode: AppCursor }
-  - { key: Right, mods: Shift, chars: "\x1b[1;2C" }
-  - { key: Right, mods: Control, chars: "\x1b[1;5C" }
-  - { key: Right, mods: Alt, chars: "\x1b[1;3C" }
-  - { key: Right, chars: "\x1b[C", mode: ~AppCursor }
-  - { key: Right, chars: "\x1bOC", mode: AppCursor }
-  - { key: Up, mods: Shift, chars: "\x1b[1;2A" }
-  - { key: Up, mods: Control, chars: "\x1b[1;5A" }
-  - { key: Up, mods: Alt, chars: "\x1b[1;3A" }
-  - { key: Up, chars: "\x1b[A", mode: ~AppCursor }
-  - { key: Up, chars: "\x1bOA", mode: AppCursor }
-  - { key: Down, mods: Shift, chars: "\x1b[1;2B" }
-  - { key: Down, mods: Control, chars: "\x1b[1;5B" }
-  - { key: Down, mods: Alt, chars: "\x1b[1;3B" }
-  - { key: Down, chars: "\x1b[B", mode: ~AppCursor }
-  - { key: Down, chars: "\x1bOB", mode: AppCursor }
-  - { key: Tab, mods: Shift, chars: "\x1b[Z" }
-  - { key: F1, chars: "\x1bOP" }
-  - { key: F2, chars: "\x1bOQ" }
-  - { key: F3, chars: "\x1bOR" }
-  - { key: F4, chars: "\x1bOS" }
-  - { key: F5, chars: "\x1b[15~" }
-  - { key: F6, chars: "\x1b[17~" }
-  - { key: F7, chars: "\x1b[18~" }
-  - { key: F8, chars: "\x1b[19~" }
-  - { key: F9, chars: "\x1b[20~" }
-  - { key: F10, chars: "\x1b[21~" }
-  - { key: F11, chars: "\x1b[23~" }
-  - { key: F12, chars: "\x1b[24~" }
-  - { key: Back, chars: "\x7f" }
-  - { key: Back, mods: Alt, chars: "\x1b\x7f" }
-  - { key: Insert, chars: "\x1b[2~" }
-  - { key: Delete, chars: "\x1b[3~", mode: AppKeypad }
-  - { key: Delete, chars: "\x1b[P", mode: ~AppKeypad }
+  - { key: Home, chars: "\eOH", mode: AppCursor }
+  - { key: Home, chars: "\e[1~", mode: ~AppCursor }
+  - { key: End, chars: "\eOF", mode: AppCursor }
+  - { key: End, chars: "\e[4~", mode: ~AppCursor }
+  - { key: PageUp, chars: "\e[5~" }
+  - { key: PageDown, chars: "\e[6~" }
+  - { key: Left, mods: Shift, chars: "\e[1;2D" }
+  - { key: Left, mods: Control, chars: "\e[1;5D" }
+  - { key: Left, mods: Alt, chars: "\e[1;3D" }
+  - { key: Left, chars: "\e[D", mode: ~AppCursor }
+  - { key: Left, chars: "\eOD", mode: AppCursor }
+  - { key: Right, mods: Shift, chars: "\e[1;2C" }
+  - { key: Right, mods: Control, chars: "\e[1;5C" }
+  - { key: Right, mods: Alt, chars: "\e[1;3C" }
+  - { key: Right, chars: "\e[C", mode: ~AppCursor }
+  - { key: Right, chars: "\eOC", mode: AppCursor }
+  - { key: Up, mods: Shift, chars: "\e[1;2A" }
+  - { key: Up, mods: Control, chars: "\e[1;5A" }
+  - { key: Up, mods: Alt, chars: "\e[1;3A" }
+  - { key: Up, chars: "\e[A", mode: ~AppCursor }
+  - { key: Up, chars: "\eOA", mode: AppCursor }
+  - { key: Down, mods: Shift, chars: "\e[1;2B" }
+  - { key: Down, mods: Control, chars: "\e[1;5B" }
+  - { key: Down, mods: Alt, chars: "\e[1;3B" }
+  - { key: Down, chars: "\e[B", mode: ~AppCursor }
+  - { key: Down, chars: "\eOB", mode: AppCursor }
+  - { key: Tab, mods: Shift, chars: "\e[Z" }
+  - { key: F1, chars: "\eOP" }
+  - { key: F2, chars: "\eOQ" }
+  - { key: F3, chars: "\eOR" }
+  - { key: F4, chars: "\eOS" }
+  - { key: F5, chars: "\e[15~" }
+  - { key: F6, chars: "\e[17~" }
+  - { key: F7, chars: "\e[18~" }
+  - { key: F8, chars: "\e[19~" }
+  - { key: F9, chars: "\e[20~" }
+  - { key: F10, chars: "\e[21~" }
+  - { key: F11, chars: "\e[23~" }
+  - { key: F12, chars: "\e[24~" }
+  - { key: Back, chars: "" }
+  - { key: Back, mods: Alt, chars: "\e" }
+  - { key: Insert, chars: "\e[2~" }
+  - { key: Delete, chars: "\e[3~", mode: AppKeypad }
+  - { key: Delete, chars: "\e[P", mode: ~AppKeypad }
 
 # Mouse bindings
 #
@@ -591,6 +585,7 @@ selection:
   semantic_escape_chars: ',│`|:"'' ()[]{}<>'
 
 hide_cursor_when_typing: false
+
 # Shell
 #
 # You can set shell.program to the path of your favorite shell, e.g. /bin/fish.
