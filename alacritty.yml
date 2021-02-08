@@ -92,368 +92,45 @@ font:
 # and cursor.background colors, otherwise invert the colors of the cursor.
 custom_cursor_colors: true
 
-#----------- ALL COLOR SCHEMES ---------
-#
-# Colors (Cobalt 2)
-#colors:
-#  cursor:
-#    text: '#fefff2'
-#    cursor: '#f0cc09'
-#
-#  selection:
-#    text: '#b5b5b5'
-#    background: '#18354f'
-#
-#  primary:
-#    background: '#132738'
-#    foreground: '#ffffff'
-#
-#  normal:
-#    black:   '#000000'
-#    red:     '#ff0000'
-#    green:   '#38de21'
-#    yellow:  '#ffe50a'
-#    blue:    '#1460d2'
-#    magenta: '#ff005d'
-#    cyan:    '#00bbbb'
-#    white:   '#bbbbbb'
-#
-#  bright:
-#    black:   '#555555'
-#    red:     '#f40e17'
-#    green:   '#3bd01d'
-#    yellow:  '#edc809'
-#    blue:    '#5555ff'
-#    magenta: '#ff55ff'
-#    cyan:    '#6ae3fa'
-#    white:   '#ffffff'
+#My fav color scheme
 #
 # Colors (Night Owl by Sarah Drasner)
-colors:
-  # Default colors
-  primary:
-    background: '#011627'
-    foreground: '#acb4c2'
-
-  cursor:
-    text: '#fafafa'
-    cursor: '#9ca1aa'
-
-  selection:
-    text: '#080808'
-    background: '#b2ceee'
-
-  # Normal colors
-  normal:
-    black: '#1d3b53'
-    red: '#fc514e'
-    green: '#a1cd5e'
-    yellow: '#e3d18a'
-    blue: '#82aaff'
-    magenta: '#c792ea'
-    cyan: '#7fdbca'
-    white: '#a1aab8'
-
-  # Bright colors
-  bright:
-    black: '#7c8f8f'
-    red: '#ff5874'
-    green: '#21c7a8'
-    yellow: '#ecc48d'
-    blue: '#82aaff'
-    magenta: '#ae81ff'
-    cyan: '#7fdbca'
-    white: '#d6deeb'
-
-# Colors (Shades_of_Purple)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#1E1E3F"
-#     foreground: "#E1EFFF"
 #
-#   # Colors the cursor will use if `custom_cursor_colors` is true
-#   cursor:
-#     text: "#1E1E3F"
-#     cursor: "#FAD000"
-#
-#   # Normal colors
-#   normal:
-#     black: "#000000"
-#     red: "#EC3A37"
-#     green: "#75e44c"
-#     yellow: "#FAD000"
-#     blue: "#6943FF"
-#     magenta: "#FF2C70"
-#     cyan: "#80FCFF"
-#     white: "#FFFFFF"
-#
-#   # Bright colors
-#   bright:
-#     black: "#5C5C61"
-#     red: "#EC3A37"
-#     green: "#3AD900"
-#     yellow: "#FAD000"
-#     blue: "#6943FF"
-#     magenta: "#FB94FF"
-#     cyan: "#80FCFF"
-#     white: "#2D2B55"
-#
-#
-# Dracula Theme
-#colors:
-#  primary:
-#    background: '0x282a36'
-#    foreground: '0xf8f8f2'
-#  cursor:
-#    text: CellBackground
-#    cursor: CellForeground
-#  vi_mode_cursor:
-#    text: CellBackground
-#    cursor: CellForeground
-#  search:
-#    matches:
-#      foreground: '0x44475a'
-#      background: '0x50fa7b'
-#    focused_match:
-#      foreground: '0x44475a'
-#      background: '0xffb86c'
-#    bar:
-#      background: '0x282a36'
-#      foreground: '0xf8f8f2'
-#  line_indicator:
-#    foreground: None
-#    background: None
-#  selection:
-#    text: CellForeground
-#    background: '0x44475a'
-#  normal:
-#    black:   '0x000000'
-#    red:     '0xff5555'
-#    green:   '0x50fa7b'
-#    yellow:  '0xf1fa8c'
-#    blue:    '0xbd93f9'
-#    magenta: '0xff79c6'
-#    cyan:    '0x8be9fd'
-#    white:   '0xbfbfbf'
-#  bright:
-#    black:   '0x4d4d4d'
-#    red:     '0xff6e67'
-#    green:   '0x5af78e'
-#    yellow:  '0xf4f99d'
-#    blue:    '0xcaa9fa'
-#    magenta: '0xff92d0'
-#    cyan:    '0x9aedfe'
-#    white:   '0xe6e6e6'
-#  dim:
-#    black:   '0x14151b'
-#    red:     '0xff2222'
-#    green:   '0x1ef956'
-#    yellow:  '0xebf85b'
-#    blue:    '0x4d5b86'
-#    magenta: '0xff46b0'
-#    cyan:    '0x59dffc'
-#    white:   '0xe6e6d1'
-# Colors (Ayu Dark)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#0A0E14"
-#     foreground: "#B3B1AD"
-#
-#   # Normal colors
-#   normal:
-#     black: "#01060E"
-#     red: "#EA6C73"
-#     green: "#91B362"
-#     yellow: "#F9AF4F"
-#     blue: "#53BDFA"
-#     magenta: "#FAE994"
-#     cyan: "#90E1C6"
-#     white: "#C7C7C7"
-#
-#   # Bright colors
-#   bright:
-#     black: "#686868"
-#     red: "#F07178"
-#     green: "#C2D94C"
-#     yellow: "#FFB454"
-#     blue: "#59C2FF"
-#     magenta: "#FFEE99"
-#     cyan: "#95E6CB"
-#     white: "#FFFFFF"
-#
-# Colors (Ayu Mirage)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#202734"
-#     foreground: "#CBCCC6"
-#
-#   # Normal colors
-#   normal:
-#     black: "#191E2A"
-#     red: "#FF3333"
-#     green: "#BAE67E"
-#     yellow: "#FFA759"
-#     blue: "#73D0FF"
-#     magenta: "#FFD580"
-#     cyan: "#95E6CB"
-#     white: "#C7C7C7"
-#
-#   # Bright colors
-#   bright:
-#     black: "#686868"
-#     red: "#F27983"
-#     green: "#A6CC70"
-#     yellow: "#FFCC66"
-#     blue: "#5CCFE6"
-#     magenta: "#FFEE99"
-#     cyan: "#95E6CB"
-#     white: "#FFFFFF"
-#
-# Colors (Gruvbox dark)
 #colors:
 #  # Default colors
 #  primary:
-#    # hard contrast:
-#    background: '#1d2021'
-#    #background: '#282828'
-#    #background: '#1d2021'
-#    # soft contrast:
-#    #background: '#32302f'
-#    foreground: '#ebdbb2'
+#    background: '#011627'
+#    foreground: '#acb4c2'
+#
+#  cursor:
+#    text: '#fafafa'
+#    cursor: '#9ca1aa'
+#
+#  selection:
+#    text: '#080808'
+#    background: '#b2ceee'
 #
 #  # Normal colors
 #  normal:
-#    black:   '#282828'
-#    red:     '#cc241d'
-#    green:   '#98971a'
-#    yellow:  '#d79921'
-#    blue:    '#458588'
-#    magenta: '#b16286'
-#    cyan:    '#689d6a'
-#    white:   '#a89984'
+#    black: '#1d3b53'
+#    red: '#fc514e'
+#    green: '#a1cd5e'
+#    yellow: '#e3d18a'
+#    blue: '#82aaff'
+#    magenta: '#c792ea'
+#    cyan: '#7fdbca'
+#    white: '#a1aab8'
 #
 #  # Bright colors
 #  bright:
-#    black:   '#928374'
-#    red:     '#fb4934'
-#    green:   '#b8bb26'
-#    yellow:  '#fabd2f'
-#    blue:    '#83a598'
-#    magenta: '#d3869b'
-#    cyan:    '#8ec07c'
-#    white:   '#ebdbb2'
-# Colors (Material Theme)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#263238"
-#     foreground: "#eeffff"
-#
-#   # Normal colors
-#   normal:
-#     black: "#000000" # Arbitrary
-#     red: "#e53935"
-#     green: "#91b859"
-#     yellow: "#ffb62c"
-#     blue: "#6182b8"
-#     magenta: "#ff5370" # Dark pink of the original material theme
-#     cyan: "#39adb5"
-#     white: "#a0a0a0" # Arbitrary
-#
-#   # Bright colors
-#   bright:
-#     black: "#4e4e4e" # Arbitrary
-#     red: "#ff5370"
-#     green: "#c3e88d"
-#     yellow: "#ffcb6b"
-#     blue: "#82aaff"
-#     magenta: "#f07178" # Pink of the original material theme
-#     cyan: "#89ddff"
-#     white: "#ffffff" # Arbitrary
-#
-# Colors (One Dark)
-#colors:
-#   # Default colors
-#   primary:
-#     background: "#282c34"
-#     foreground: "#abb2bf"
-#
-#   # Normal colors
-#   normal:
-#     # NOTE: Use '#131613' for the `black` color if you'd like to see
-#     # black text on the background.
-#     black: "#282c34"
-#     red: "#e06c75"
-#     green: "#98c379"
-#     yellow: "#d19a66"
-#     blue: "#61afef"
-#     magenta: "#c678dd"
-#     cyan: "#56b6c2"
-#     white: "#abb2bf"
-#
-#   # Bright colors
-#   bright:
-#     black: "#5c6370"
-#     red: "#e06c75"
-#     green: "#98c379"
-#     yellow: "#d19a66"
-#     blue: "#61afef"
-#     magenta: "#c678dd"
-#     cyan: "#56b6c2"
-#     white: "#ffffff"
-#
-# Nord
-#colors:
-#  primary:
-#    background: '#2e3440'
-#    foreground: '#d8dee9'
-#    dim_foreground: '#a5abb6'
-#  cursor:
-#    text: '#2e3440'
-#    cursor: '#d8dee9'
-#  vi_mode_cursor:
-#    text: '#2e3440'
-#    cursor: '#d8dee9'
-#  selection:
-#    text: CellForeground
-#    background: '#4c566a'
-#  search:
-#    matches:
-#      foreground: CellBackground
-#      background: '#88c0d0'
-#    bar:
-#      background: '#434c5e'
-#      foreground: '#d8dee9'
-#  normal:
-#    black: '#3b4252'
-#    red: '#bf616a'
-#    green: '#a3be8c'
-#    yellow: '#ebcb8b'
-#    blue: '#81a1c1'
-#    magenta: '#b48ead'
-#    cyan: '#88c0d0'
-#    white: '#e5e9f0'
-#  bright:
-#    black: '#4c566a'
-#    red: '#bf616a'
-#    green: '#a3be8c'
-#    yellow: '#ebcb8b'
-#    blue: '#81a1c1'
-#    magenta: '#b48ead'
-#    cyan: '#8fbcbb'
-#    white: '#eceff4'
-#  dim:
-#    black: '#373e4d'
-#    red: '#94545d'
-#    green: '#809575'
-#    yellow: '#b29e75'
-#    blue: '#68809a'
-#    magenta: '#8c738c'
-#    cyan: '#6d96a5'
-#    white: '#aeb3bb'
+#    black: '#7c8f8f'
+#    red: '#ff5874'
+#    green: '#21c7a8'
+#    yellow: '#ecc48d'
+#    blue: '#82aaff'
+#    magenta: '#ae81ff'
+#    cyan: '#7fdbca'
+#    white: '#d6deeb'
 # Visual Bell
 #
 # Any time the BEL code is received, Alacritty "rings" the visual bell. Once
@@ -585,6 +262,41 @@ selection:
   semantic_escape_chars: ',│`|:"'' ()[]{}<>'
 
 hide_cursor_when_typing: false
+
+#---------------------------------------------
+# COLOR IS BEING GENERATED BY
+# ----------------------
+#[ npx alacritty-themes ]
+#-----------------------
+# just run on terminal
+#---------------------------------------------
+colors:
+  # Default colors
+  primary:
+    background: '#101421'
+    foreground: '#fffbf6'
+
+  # Normal colors
+  normal:
+    black: '#2e2e2e'
+    red: '#eb4129'
+    green: '#abe047'
+    yellow: '#f6c744'
+    blue: '#47a0f3'
+    magenta: '#7b5cb0'
+    cyan: '#64dbed'
+    white: '#e5e9f0'
+
+  # Bright colors
+  bright:
+    black: '#565656'
+    red: '#ec5357'
+    green: '#c0e17d'
+    yellow: '#f9da6a'
+    blue: '#49a4f8'
+    magenta: '#a47de9'
+    cyan: '#99faf2'
+    white: '#ffffff'
 
 # Shell
 #
