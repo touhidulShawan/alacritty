@@ -273,30 +273,38 @@ hide_cursor_when_typing: false
 colors:
   # Default colors
   primary:
-    background: '#101421'
-    foreground: '#fffbf6'
+    background: '#011627'
+    foreground: '#acb4c2'
+
+  cursor:
+    text: '#fafafa'
+    cursor: '#9ca1aa'
+
+  selection:
+    text: '#080808'
+    background: '#b2ceee'
 
   # Normal colors
   normal:
-    black: '#2e2e2e'
-    red: '#eb4129'
-    green: '#abe047'
-    yellow: '#f6c744'
-    blue: '#47a0f3'
-    magenta: '#7b5cb0'
-    cyan: '#64dbed'
-    white: '#e5e9f0'
+    black: '#1d3b53'
+    red: '#fc514e'
+    green: '#a1cd5e'
+    yellow: '#e3d18a'
+    blue: '#82aaff'
+    magenta: '#c792ea'
+    cyan: '#7fdbca'
+    white: '#a1aab8'
 
   # Bright colors
   bright:
-    black: '#565656'
-    red: '#ec5357'
-    green: '#c0e17d'
-    yellow: '#f9da6a'
-    blue: '#49a4f8'
-    magenta: '#a47de9'
-    cyan: '#99faf2'
-    white: '#ffffff'
+    black: '#7c8f8f'
+    red: '#ff5874'
+    green: '#21c7a8'
+    yellow: '#ecc48d'
+    blue: '#82aaff'
+    magenta: '#ae81ff'
+    cyan: '#7fdbca'
+    white: '#d6deeb'
 
 # Shell
 #
