@@ -50,6 +50,7 @@ font:
     #family: SauceCodePro Nerd Font
     #family: mononoki Nerd Font
     family: JetBrains Mono Nerd Font
+    #family: Source Code Pro
     # Style can be specified to pick a specific face.
     style: Regular
 
@@ -59,7 +60,7 @@ font:
     #family: SauceCodePro Nerd Font
     #family:  mononoki Nerd Font
     family: JetBrains Mono Medium Nerd Font
-    #family: SauceCodePro Nerd Font
+    #family: Source Code Pro
     # Style can be specified to pick a specific face.
     style: Bold
 
@@ -69,7 +70,7 @@ font:
     #family: SauceCodePro Nerd Font
     #family:  mononoki Nerd Font
     family: JetBrains Mono Medium Nerd Font
-    #family: SauceCodePro Nerd Font
+    #family: Source Code Pro
     # Style can be specified to pick a specific face.
     style: Italic
 
@@ -186,6 +187,66 @@ colors:
     magenta: "0xff46b0"
     cyan: "0x59dffc"
     white: "0xe6e6d1"
+
+# Colors (Gruvbox dark)
+#colors:
+#  primary:
+#    # hard contrast background - '#1d2021'
+#    background:        &gruvbox_dark_bg '#282828'
+#    # soft contrast background - '#32302f'
+#    foreground:        '#fbf1c7'
+#    bright_foreground: '#f9f5d7'
+#    dim_foreground:    '#f2e5bc'
+#  cursor:
+#    text:   CellBackground
+#    cursor: CellForeground
+#  vi_mode_cursor:
+#    text:   CellBackground
+#    cursor: CellForeground
+#  # search:
+#  #   matches:
+#  #     foreground: '#000000'
+#  #     background: '#ffffff'
+#  #   focused_match:
+#  #    foreground: CellBackground
+#  #    background: CellForeground
+#  #   bar:
+#  #     background: ''
+#  #     foreground: ''
+#  # line_indicator:
+#  #   foreground: None
+#  #   background: None
+#  selection:
+#    text:       CellBackground
+#    background: CellForeground
+#  bright:
+#    black:   '#928374'
+#    red:     '#fb4934'
+#    green:   '#b8bb26'
+#    yellow:  '#fabd2f'
+#    blue:    '#83a598'
+#    magenta: '#d3869b'
+#    cyan:    '#8ec07c'
+#    white:   '#ebdbb2'
+#  normal:
+#    black:   *gruvbox_dark_bg
+#    red:     '#cc241d'
+#    green:   '#98971a'
+#    yellow:  '#d79921'
+#    blue:    '#458588'
+#    magenta: '#b16286'
+#    cyan:    '#689d6a'
+#    white:   '#a89984'
+#  dim:
+#    black:   '#32302f'
+#    red:     '#9d0006'
+#    green:   '#79740e'
+#    yellow:  '#b57614'
+#    blue:    '#076678'
+#    magenta: '#8f3f71'
+#    cyan:    '#427b58'
+#    white:   '#928374'
+
 # Visual Bell
 #
 # Any time the BEL code is received, Alacritty "rings" the visual bell. Once
@@ -242,6 +303,7 @@ background_opacity: 1.0
 # be escape sequences, but they can be configured to send arbitrary strings of
 # bytes. Possible values of `action` include `Paste` and `PasteSelection`.
 key_bindings:
+  - { key: Return, mods: Control|Shift, action: SpawnNewInstance }
   - { key: V, mods: Control|Shift, action: Paste }
   - { key: C, mods: Control|Shift, action: Copy }
   - { key: Q, mods: Control|Shift, action: Quit }
