@@ -273,7 +273,8 @@ bell:
   animation: EaseOutExpo
   duration: 0
 
-background_opacity: 1.0
+    #background_opacity: 1.0
+background_opacity: .98
 # Key bindings
 #
 # Each binding is defined as an object with some properties. Most of the
